@@ -38,7 +38,7 @@ class App extends React.Component {
     const { backgroundColor, firstName, lastName } = this.state;
 
     return (
-      <Router basename="">
+      <Router basename="https://github.com/petrajakubcova/my_app">
         <div className="entire-app" style={{backgroundColor: backgroundColor}}>
           <nav>
             <ul>
