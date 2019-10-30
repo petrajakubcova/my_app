@@ -2,7 +2,7 @@
   "name": "first_react_project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/petrajakubcova/my_app",
+  "homepage": "https://petrajakubcova.github.io/my_app/",
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.9.0",
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publish": "NODE_DEBUG-gh-pages node ghpages.js",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
